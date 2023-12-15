@@ -21,13 +21,13 @@ yarn
 1. Run `yarn dev` with this command you send:
 
 ```bash
-ts-node ./src/app.ts -b 10 -l 15
+npx ts-node ./src/app.ts -b 10 -l 15
 ```
 
 * You can update params command in `package.json` file or execute command with custom params
 
 ```bash
-ts-node ./src/app.ts -b 10 -l 15 -s -n filename -d destination
+npx ts-node ./src/app.ts -b 10 -l 15 -s -n filename -d destination
 ```
 
 ## My process
@@ -38,10 +38,24 @@ ts-node ./src/app.ts -b 10 -l 15 -s -n filename -d destination
 - Typescript
 - Nodemon
 - Yargs
+- Jest
+- Supertest
 
 ### What I learned
 
-- 
+- Create console apps
+- Console arguments
+- Flags and options
+- Yargs configuration
+- Use Cases & Use Case Testing
+- Testing on console commands
+- Dynamically change console arguments
+- Mocks & Spies
+- Testing when errors are expected
+- Integration testing
+- Testing with self-invoked anonymous asynchronous functions
+- Testing with yargs
+- Testing with file and directory creation
 
 ## Development Features
 
