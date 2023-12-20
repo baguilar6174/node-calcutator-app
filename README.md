@@ -167,7 +167,6 @@ npx ts-node ./src/app.ts -b 10 -l 15 -s -n filename -d destination
 - Nodemon
 - Yargs
 - Jest
-- Supertest
 
 ### What I learned
 
@@ -193,12 +192,7 @@ npx ts-node ./src/app.ts -b 10 -l 15 -s -n filename -d destination
 
 ## Improves
 
-- 
-
-
-## TODO:
-
-- 
+- Fix: test with dynamic imports
 
 ## Stay in touch
 
